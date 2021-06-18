@@ -321,7 +321,7 @@ MonoBehaviour:
   gravity: -15
   jumpForce: 5
   lockCursor: 1
-  moveInAir: 0
+  moveInAir: 1
 --- !u!143 &602691399
 CharacterController:
   m_ObjectHideFlags: 0
@@ -348,7 +348,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602691397}
   m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 1.066, z: 0}
+  m_LocalPosition: {x: 0, y: 3.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 605728877}
@@ -986,7 +986,7 @@ GameObject:
   - component: {fileID: 1156813285}
   - component: {fileID: 1156813284}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: The Stars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
