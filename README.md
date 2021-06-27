@@ -1,2 +1,4 @@
 # 3D-Unity-Game
-Pixel-style 3D game created in Unity
+Pixel-style dungeon low-poly 3D horror game created in Unity
+
+
