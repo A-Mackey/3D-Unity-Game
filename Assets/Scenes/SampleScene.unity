@@ -293,6 +293,7 @@ GameObject:
   - component: {fileID: 602691400}
   - component: {fileID: 602691399}
   - component: {fileID: 602691398}
+  - component: {fileID: 602691401}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -356,6 +357,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!114 &602691401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602691397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 665e603f22602b949912ef3c3a79f63d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 0}
+  mouseSensitivity: 3.5
+  walkSpeed: 3.5
+  moveSmoothTime: 0.3
+  mouseSmoothTime: 0.5
+  numberOfJumps: 1
+  gravity: -9.81
+  jumpForce: 10
+  lockCursor: 1
+  moveInAir: 1
 --- !u!1 &605728876
 GameObject:
   m_ObjectHideFlags: 0
